@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/c15">
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="your name"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="50dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="your Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="50dp"/>
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+
+</RelativeLayout>

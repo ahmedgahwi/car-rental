@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChevrolateActiviti"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="302dp"
+        android:layout_height="207dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="393dp"
+        android:background="#22423B3B"
+        android:text="Rent your dream car now, enjoy luxury and make your dream come true."
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/company_Name"
+        android:layout_width="273dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="436dp"
+        android:text="chevrolate"
+        android:textColor="#7C0924"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="280dp"
+        android:src="@drawable/c17" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="142dp"
+        android:src="@drawable/c18" />
+
+    <Button
+        android:id="@+id/B_B"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Booking now"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/M_B"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Meeting now"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeetingActivity"
+    android:background="@drawable/c11"
+    android:backgroundTint="#AD3C3937"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/Name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="75dp"
+        android:hint="car name.."
+        android:inputType="text"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Enter your Name..."
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="80dp"
+        android:hint="wich day.."
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/Clear_Button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/update_Button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Clear_Button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="133dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/view_Button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_Button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="134dp"
+        android:backgroundTint="#AD3C3937"
+        android:text="View" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        android:layout_marginStart="110dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunday (8AM-12PM)"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monday (8AM-2PM)"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday (8AM-1PM)"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wednesday (8AM-4PM)"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thursday (8AM-7PM)"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

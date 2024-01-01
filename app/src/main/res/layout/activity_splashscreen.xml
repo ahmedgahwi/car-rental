@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#AD3C3937"
+    android:layout_height="match_parent"
+    tools:context=".Splashscreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:text="Welcome To Car Rental"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/c1" />
+
+
+</RelativeLayout>
